@@ -1,0 +1,229 @@
+div {
+    text-align: center;
+}
+.menu {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    background-color: white;
+    padding: 20px 40px;
+    width: 100px;
+}
+.menu a:hover {
+    background-color: #ccc    ;
+    opacity: 0.7 ;
+}
+
+.header {
+    margin-top: 58px;
+    color: white;
+    padding: 250px;
+    background-image: url(images/polygons.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 13px;
+    display: inline-block;
+    border-radius: 8px;
+    transition: background-color 1s, color 1s;
+}
+
+.header a:hover {
+    background-color: black;
+    color: white;
+}
+
+.essay img {
+    float: right;
+    /*Определяет, по какой стороне будет выравниваться элемент,*/
+    height: 300px;
+    /*Устанавливает высоту блочных эл.*/
+}
+
+.essay {
+    text-align: left;
+    background-color: white;
+    width: 1200px;
+    margin: 0 auto
+}
+
+.essay h3 {
+    text-align: center;
+}
+
+.members {
+    display: inline-block;
+    /*Строит в блочном порядке элемента*/
+    background-color: white;
+    width: 20%;
+    /*Устанавливает ширину блочных или заменяемых элементов*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 23px;
+    /*Свойство margin позволяет задать величину отступа */
+    padding: 20px;
+    /*Свойство padding позволяет задать величину поля, дать отступ.*/
+}
+
+.members img {
+    width: 100%;
+}
+
+.members a {
+    text-decoration: none;
+    color: white;
+    background-color: #055b73;
+    padding: 13px;
+    display: block;
+    /*Многоцелевое свойство, которое определяет, как элемент должен быть показан в документе.*/
+    border-radius: 8px;
+}
+.members a:hover {
+    background-color: black;
+    color: white
+}
+
+.members h2 {
+    text-align: left;
+}
+
+.role {
+    color: gray;
+    text-align: left;
+}
+
+.members p {
+    text-align: left;
+}
+
+.tarifs h2 {
+    color: white;
+
+}
+
+.tarifs {
+    background-color: #616161;
+}
+
+.three {
+    color: white
+}
+
+.tarifs li {
+    list-style-type: none;
+    padding: 23px;
+    border-bottom: 3px solid #F1F1F1;
+}
+
+.tarifs ul {
+    background-color: white;
+    display: inline-block;
+    width: 23%;
+    padding: 0px;
+    vertical-align: middle;
+    margin: 14px;
+}
+
+.draw {
+    background-color: black;
+    color: white;
+}
+
+.tarifs a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 14px;
+    display: inline-block;
+    border-radius: 8px;
+    width: 67px;
+}
+.tarifs a:hover {
+    background-color: white;
+    color: black
+}
+.buy {
+    background-color: #F1F1F1;
+}
+
+span {
+    font-weight: 900;
+}
+
+.day {
+    color: gray;
+}
+
+.tarifs .paint {
+    background-color: #055b73;
+    color: white;
+    padding: 38px;
+}
+.message {
+    background-color: #F1F1F1; 
+    padding: 40px
+}
+
+.clock p{
+    text-align: left;   
+    background-position: left;
+    padding: 8px 34px
+}   
+.feed {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 13px;
+    border-radius: 8px;
+}
+.clock a:hover {
+    background-color: white;
+    color: black;
+}
+.clock input {
+    display: block;
+    width: 93%;
+    margin: 23px 2px;
+    padding: 6px 34px;
+    border: none;
+    outline: none;
+}
+.clock {
+    padding: 43px;
+}
+.country {
+    background-image: url(images/address.png);
+    background-repeat: no-repeat;               
+}
+.phone {
+    background-image: url(images/phone.png);
+    background-repeat: no-repeat;
+}
+.email {
+    background-image: url(images/mail.png);
+    background-repeat: no-repeat;
+}
+.rights {
+    background-color: black;
+}
+.rights p {
+    color: white;
+    text-align: left;
+    margin: auto;
+}
+body {
+    margin: 0;
+}
